@@ -16,6 +16,7 @@ html{
     --primary-bg-color:#ffffff;
     --primary-bg-hero: #2E2F42;
     --footer-text-color:#F4F4FD;
+    --nav-border-line: #E7E9FC;
     
 }
 h1, h2, h3, h4, p{
@@ -23,9 +24,8 @@ h1, h2, h3, h4, p{
     margin-bottom: 0;
 }
 ul{
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-left: 0;
+    margin: 0;
+    padding: 0;
     list-style: none;
 }
 img{
@@ -40,7 +40,7 @@ button{
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
-    outline: red 1px solid;
+    
     
 }
 
@@ -54,10 +54,12 @@ body{
 .page-header{
     padding-top: 24px;
     padding-bottom: 24px;
+
 }
 .header-container{
     display: flex;
     justify-content: space-between;
+   
 }
 .page-navigation{
     display: flex;
@@ -148,7 +150,7 @@ body{
 .hero-container{
     padding-top: 188px;
     height: 600px;
-    outline: red 1px solid;
+    
     
 }
 
@@ -193,10 +195,18 @@ body{
 
 
 /*Features section*/
+.features-card{
+    width: 264px;
+    
+   
+    
+}
+
 .features-container{
-    margin-top: 60px;
-    padding-top: 60px;
+    
+    padding-top: 120px;
     padding-bottom: 60px;
+    
 }
 .explanations-title,
 .team-title{
@@ -222,10 +232,11 @@ h3{
     text-align: left;
     margin-bottom: 8px;
 }
-.features li{
-    list-style: none;
-    display: inline-block;
+.features{
+    display: flex;
+    justify-content: space-between;
 }
+
 .features-text{
     font-style: normal;       
     font-size: 16px;
@@ -237,6 +248,7 @@ h3{
 .explanations-container{
     padding-top: 60px;
     padding-bottom: 60px;
+    
 }
 .explanations{
     display: flex;
@@ -263,8 +275,7 @@ h3{
     padding-bottom: 120px;
 }
 .team{
-    display: flex;
-    
+    display: flex;    
     flex-wrap: wrap;
 }
 
@@ -340,8 +351,16 @@ h3{
 /*Portfolio page*/
 
 /*Butttons section*/
+.portfolio-section{
+    border-top: 1px solid #E7E9FC;
+}
 .portfolio-list{
-    list-style: none;
+   display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 96px;
+    padding-bottom: 72px;
+
     
 }
 .portfolio-button button{
@@ -357,14 +376,22 @@ h3{
     letter-spacing: 0.04em;
     border: 1px solid #E7E9FC;
     border-radius: 4px;
+    padding: 12px 24px;
+    border-radius: 4px;
+    
+    
    
+}
+.portfolio-button:not(:last-child) {
+    margin-right: 24px;
 }
 .portfolio-button button:hover,
 .portfolio-button button:focus
 {
     color: var(--white-text-color);
-    
+    border: none;
     background-color: var(--accent-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .portfolio-list-img{
     display: flex;
@@ -373,6 +400,29 @@ h3{
         
 
 }
+.portfolio-img{
+    background: var(--primary-bg-color);
+    width: 360px;
+    
+}
+.portfolio-card-title{
+    
+    padding-left: 16px;
+    padding-bottom: 8px;
+    font-size: 20px;
+}
+.portfolio-text-description{
+    padding-left: 16px;
+}
+.portfolio-section{
+    margin-bottom: 120px;
+}
+.portfolio-description{
+border: 1px solid var(--nav-border-line);
+padding-top: 32px;
+padding-bottom: 32px;
+border-top: none}
+
 
 
 
