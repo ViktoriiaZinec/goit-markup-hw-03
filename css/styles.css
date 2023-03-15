@@ -111,8 +111,7 @@ body{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    
-    
+       
 }
 
 
@@ -147,12 +146,8 @@ body{
 }
 
 /*Hero section*/
-.hero-container{
-    padding-top: 188px;
-    height: 600px;
-    
-    
-}
+
+
 
 .hero-title{
     font-size: 56px;
@@ -168,6 +163,8 @@ body{
 .hero{
     background-color: var(--primary-bg-hero);
     text-align: center;
+    padding-top: 190px;
+    padding-bottom: 190px;
     
     
       
@@ -203,9 +200,8 @@ body{
 }
 
 .features-container{
-    
     padding-top: 120px;
-    padding-bottom: 60px;
+    padding-bottom: 120px;
     
 }
 .explanations-title,
@@ -245,11 +241,12 @@ h3{
 }
 
 /*Explanation section*/
-.explanations-container{
-    padding-top: 60px;
-    padding-bottom: 60px;
-    
+.explanations-wrapper{
+ padding-bottom: 120px;
+
+
 }
+
 .explanations{
     display: flex;
     justify-content: space-between;
@@ -267,13 +264,11 @@ h3{
 /*Our team section*/
 .our-team-wrapper{
     background-color: var(--footer-text-color);
-    
-    
-}
-.team-container{
     padding-top: 120px;
     padding-bottom: 120px;
+    
 }
+
 .team{
     display: flex;    
     flex-wrap: wrap;
@@ -309,11 +304,12 @@ h3{
  /*Footer*/
  .footer-section{
     background-color: var(--primary-bg-hero);
+    padding-top: 100px;
+    padding-bottom: 100px;
    
  }
  .footer-container{
-    padding-top: 100px;
-    padding-bottom: 100px;
+    
  }
 
  .footer-logo{
@@ -408,14 +404,14 @@ h3{
 .portfolio-card-title{
     
     padding-left: 16px;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
     font-size: 20px;
 }
 .portfolio-text-description{
     padding-left: 16px;
 }
 .portfolio-section{
-    margin-bottom: 120px;
+    padding-bottom: 120px;
 }
 .portfolio-description{
 border: 1px solid var(--nav-border-line);
