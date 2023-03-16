@@ -390,13 +390,13 @@ h3{
 .portfolio-list-img{
     display: flex;
     flex-wrap: wrap;    
-  gap: 48px 24px;
+    gap: 48px 24px;
         
 
 }
 .portfolio-img{
     background: var(--primary-bg-color);
-    width: 360px;
+    width: calc((100%-2*24px)/3);
     
 }
 .portfolio-card-title{
