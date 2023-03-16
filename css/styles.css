@@ -199,7 +199,7 @@ body{
     
 }
 
-.features-container{
+.features-wrapper{
     padding-top: 120px;
     padding-bottom: 120px;
     
@@ -389,8 +389,8 @@ h3{
 }
 .portfolio-list-img{
     display: flex;
-    flex-wrap: wrap;
-    gap: 24px;
+    flex-wrap: wrap;    
+  gap: 48px 24px;
         
 
 }
